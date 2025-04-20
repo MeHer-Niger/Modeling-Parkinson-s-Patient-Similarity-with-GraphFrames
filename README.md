@@ -40,6 +40,12 @@ This project explores Parkinson's telemonitoring data by modeling patient simila
 - Network graph of similar patients
 - Metadata-joined graph metrics
 
+## 🧠 Patient Similarity Network
+
+The graph below visualizes the similarity between Parkinson's patients based on their average motor_UPDRS scores. Each node represents a patient, and edges connect patients with closely matching scores (difference < 2), suggesting similar motor function trends.
+
+![Parkinson’s Patient Similarity Network](images/patient_similarity_network.png)
+
 ## 📄 License
 
 This project is open source and available under the MIT License.
