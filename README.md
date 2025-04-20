@@ -25,4 +25,21 @@ This project explores Parkinson's telemonitoring data by modeling patient simila
 2. Install required packages:
    ```bash
    pip install pandas matplotlib networkx
+3. Run the notebook with:
+   ```bash
+   pyspark --packages graphframes:graphframes:0.8.4-spark3.5-s_2.12
 
+## 📂 Dataset
+
+- Parkinson’s Telemonitoring dataset
+- Includes motor_UPDRS scores, age, and sex of patients
+
+## 📈 Example Outputs
+
+- PageRank-based patient influence rankings
+- Network graph of similar patients
+- Metadata-joined graph metrics
+
+## 📄 License
+
+This project is open source and available under the MIT License.
